@@ -2,3 +2,12 @@
   outline: none!important;
   border: none!important;
 }
+.options{
+  padding:13px 50px;
+  background-color: gray;
+  width: 100%;
+}
+.textField{
+  padding:13px 50px;
+  width: 100%;
+}

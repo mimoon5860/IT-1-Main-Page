@@ -26,25 +26,27 @@ const Banner = () => {
                             </Col>
                         </Row>
                     </div>
-                    <div>
-                        <Row className="mx-auto bg-white" >
-                            <Col className="text-center bg-light" sm={2}>
-                                <select name="cars" id="cars">
+                    <div className="text-center mx-4">
+
+                        <Row>
+                            <Col style={{ padding: "0" }} sm={2}>
+                                <select className="input h-100 border-0 options" name="cars" id="cars">
                                     <option value="volvo">Volvo</option>
                                     <option value="saab">Saab</option>
                                     <option value="opel">Opel</option>
                                     <option value="audi">Audi</option>
                                 </select>
                             </Col>
-                            <Col className="text-center" sm={6}>
-                                <Form.Control className="border-0" size="lg" type="text" placeholder="Large text" />
+                            <Col style={{ padding: "0" }} sm={8}>
+                                <input className="border-0 h-100 input textField" type="text" placeholder="Large text" />
                             </Col>
-                            <Col className="text-center" sm={2}>
-                                <Button variant="danger" size="lg">
+                            <Col style={{ padding: "0" }} sm={2}>
+                                <Button className="w-100 rounded-0 h-100" variant="danger" size="lg">
                                     Search
                                 </Button>
                             </Col>
                         </Row>
+
                     </div>
                 </div>
             </div>
