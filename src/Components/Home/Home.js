@@ -6,6 +6,8 @@ import Offer from '../HomeComponents/Offer';
 import Favorite from '../HomeComponents/Favorite';
 import Refer from '../HomeComponents/Refer';
 import refer from '../../images/Refer&Earn1.png'
+import Properties from '../HomeComponents/Properties';
+import QuickStay from '../HomeComponents/QuickStay';
 
 const Home = () => {
 
@@ -33,6 +35,12 @@ const Home = () => {
             </div>
             <div style={referStyle}>
                 <Refer />
+            </div>
+            <div className="m-5">
+                <Properties />
+            </div>
+            <div className="m-5">
+                <QuickStay />
             </div>
         </>
     );

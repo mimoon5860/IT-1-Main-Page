@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Col, Container, Form, Row } from 'react-bootstrap';
+import { Button, Col, Container, Row } from 'react-bootstrap';
 
 const Banner = () => {
     return (
@@ -30,10 +30,10 @@ const Banner = () => {
                         <Row>
                             <Col style={{ padding: "0" }} sm={2}>
                                 <select className="input h-100 border-0 options" name="cars" id="cars">
-                                    <option value="volvo">Volvo</option>
-                                    <option value="saab">Saab</option>
-                                    <option value="opel">Opel</option>
-                                    <option value="audi">Audi</option>
+                                    <option value="Chandigar">Chandigar</option>
+                                    <option value="Delhi">Delhi</option>
+                                    <option value="Kolkata">Kolkata</option>
+                                    <option value="Mumbai">Mumbai</option>
                                 </select>
                             </Col>
                             <Col style={{ padding: "0" }} sm={8}>
@@ -51,7 +51,7 @@ const Banner = () => {
                 <div className="text-center my-5">
                     <span className="bg-white py-3 rounded-pill">
                         <span className="px-5 fst-italic fw-bold">Do you own a residential property? List it here...</span>
-                        <i style={{ cursor: 'pointer' }} class="fas fa-chevron-right bg-warning m-1 circle fw-bold"></i>
+                        <i style={{ cursor: 'pointer' }} className="fas fa-chevron-right bg-warning m-1 circle fw-bold"></i>
                     </span>
                 </div>
             </div>
