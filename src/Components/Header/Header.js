@@ -10,7 +10,7 @@ const Header = () => {
                 <Navbar.Brand as={Link} to="/" >
                     <img width='50px' src={headerImg} alt="" />
                 </Navbar.Brand>
-                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                <Navbar.Toggle style={{ backgroundColor: "black" }} aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
 

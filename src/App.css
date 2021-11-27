@@ -11,3 +11,27 @@
   padding:13px 50px;
   width: 100%;
 }
+.searchWrapper{
+  background-color: rgba(0, 0, 0, 0.349);
+}
+.circle{
+  padding: 15px 18px;
+  border-radius: 50%;
+}
+.img-rounded{
+  border-radius: 20px;
+}
+.leftBorder{
+  position: relative;
+}
+.leftBorder::before{
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 100%;
+  top: 0;
+  left: -20px;
+  background-color: #FFDD19;
+  -webkit-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+}
